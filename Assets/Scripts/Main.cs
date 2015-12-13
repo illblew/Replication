@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class Main : MonoBehaviour {
-
+	public AudioSource source;
+	public AudioClip clip;
 	// Use this for initialization
 	//Declare the sprite
 	public Sprite sprite;
@@ -12,8 +13,10 @@ public class Main : MonoBehaviour {
 	int power = 1;
 	int rain = 0;
 	int hardmode = 0;
-	void Start () {
 
+
+	void Start () {
+		source = GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -30,6 +33,7 @@ public class Main : MonoBehaviour {
 			//Do this for starters
 			if (Input.GetKey("up")) {
 				MakeSprite(1);
+				source.Play();
 			}
 
 		}
@@ -37,6 +41,7 @@ public class Main : MonoBehaviour {
 
 	//sprite maker
 	void MakeSprite(int number) {
+		source.PlayOneShot (clip,.5f);
 		GameObject go = new GameObject ("sandsprite" + number);
 		SpriteRenderer renderer = go.AddComponent<SpriteRenderer> ();
 		renderer.transform.localScale = new Vector3 (0.29f, 0.29f, 1f);
@@ -46,5 +51,6 @@ public class Main : MonoBehaviour {
 		goRB.mass = 1;
 		renderer.sortingLayerName = "Default";
 		renderer.sprite = sprite;
+
 	}
 }
