@@ -1,10 +1,10 @@
-Mono path[0] = 'C:/Users/Public/Documents/Unity Projects/SAND/Replication_Data/Managed'
-Mono path[1] = 'C:/Users/Public/Documents/Unity Projects/SAND/Replication_Data/Mono'
-Mono config path = 'C:/Users/Public/Documents/Unity Projects/SAND/Replication_Data/Mono/etc'
-PlayerConnection initialized from C:/Users/Public/Documents/Unity Projects/SAND/Replication_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55227
-Multi-casting "[IP] 10.0.0.7 [Port] 55227 [Flags] 2 [Guid] 560564120 [EditorId] 3454573594 [Version] 1048832 [Id] WindowsPlayer(windoze) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [10.0.0.7:55227]
+Mono path[0] = 'C:/Users/Public/Documents/Unity Projects/Replication/Replication_Data/Managed'
+Mono path[1] = 'C:/Users/Public/Documents/Unity Projects/Replication/Replication_Data/Mono'
+Mono config path = 'C:/Users/Public/Documents/Unity Projects/Replication/Replication_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Public/Documents/Unity Projects/Replication/Replication_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55283
+Multi-casting "[IP] 10.0.0.7 [Port] 55283 [Flags] 2 [Guid] 3548055031 [EditorId] 1522834703 [Version] 1048832 [Id] WindowsPlayer(windoze) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [10.0.0.7:55283]
 Initialize engine version: 5.2.3f1 (f3d16a1fa2dd)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -13,25 +13,21 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     1985 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.044 seconds
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.041 seconds
 desktop: 1080x1920 60Hz; virtual: 3000x1920 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\Public\Documents\Unity Projects\SAND\Replication_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Replication\Replication_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: a374 -> priority: 1 
-  Thread -> id: 98bc -> priority: 1 
+  Thread -> id: ac44 -> priority: 1 
+  Thread -> id: af00 -> priority: 1 

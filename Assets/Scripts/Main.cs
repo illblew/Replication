@@ -13,6 +13,7 @@ public class Main : MonoBehaviour {
 	int power = 1;
 	int rain = 0;
 	int hardmode = 0;
+	int count = 0;
 
 
 	void Start () {
@@ -32,10 +33,10 @@ public class Main : MonoBehaviour {
 		} else {
 			//Do this for starters
 			if (Input.GetKey("up")) {
-				MakeSprite(1);
+				count = count + 1;
+				MakeSprite(count);
 				source.Play();
 			}
-
 		}
 	}
 
